@@ -10,7 +10,7 @@ pipeline {
         }
         stage("bring grid down") {
             steps {
-                sh 'docker-compose down'q
+                sh 'docker-compose down'
             }
         }
     }
